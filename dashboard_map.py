@@ -40,11 +40,11 @@ fig = px.scatter_mapbox(
     lat=gdf_sensors.geometry.y,
     lon=gdf_sensors.geometry.x,
     color="pm25",  # <- show PM2.5 values
-    color_continuous_scale="darkmint",
+    color_continuous_scale="tropic",
     size_max=15,
     zoom=11,
     height=600,
-    mapbox_style="dark-v11"
+    mapbox_style="carto-darkmatter"
 )
 
 # Overlay ward boundaries (optional)
