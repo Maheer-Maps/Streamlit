@@ -44,7 +44,7 @@ fig = px.scatter_mapbox(
     size_max=15,
     zoom=11,
     height=600,
-    mapbox_style="carto-positron"
+    mapbox_style="dark-v11"
 )
 
 # Overlay ward boundaries (optional)
