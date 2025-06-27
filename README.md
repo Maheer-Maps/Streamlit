@@ -1,25 +1,25 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 📊 Enhanced Streamlit Dashboard
 
-Description of the app ...
+An interactive dashboard built with Streamlit that allows users to filter, explore, and visualize data using an intuitive interface.
 
-## Demo App
+## 🚀 Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-imwe4dcgbvim6pretgwao4.streamlit.app/)
 
-## GitHub Codespaces
+👉 **[Click here to open the app](https://app-imwe4dcgbvim6pretgwao4.streamlit.app/)**
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+## 💻 Features
 
-## Section Heading
+- Dynamic filtering by category and date
+- Interactive charts (bar, line, box, scatter) using Plotly
+- Dark mode toggle & theme switcher
+- Editable data table
+- Data download functionality
+- Custom sidebar with search, color picker, and fun facts
 
-This is filler text, please replace this with text for this section.
+## 🛠️ Installation
 
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
