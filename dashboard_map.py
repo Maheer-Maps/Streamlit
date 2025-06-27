@@ -41,7 +41,7 @@ fig = px.scatter_mapbox(
     zoom=11,
     height=600,
     hover_name="sensor_id" if "sensor_id" in gdf_sensors.columns else None,
-    mapbox_style="carto-positron"
+    mapbox_style="open-street-map"
 )
 
 # Overlay ward boundaries (optional)
