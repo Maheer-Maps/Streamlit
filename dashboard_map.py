@@ -11,6 +11,8 @@ st.title("🌍 Liverpool Environmental Sensor Dashboard")
 # Load sensor data
 sensors_df = pd.read_csv("sensors.csv")
 
+sensors_df[["lon", "lat"]] = sensors_df[["lat", "lon"]]
+
 # Ensure longitude and latitude are numeric
 sensors_df["lon"] = pd.to_numeric(sensors_df["lon"], errors="coerce")
 sensors_df["lat"] = pd.to_numeric(sensors_df["lat"], errors="coerce")
