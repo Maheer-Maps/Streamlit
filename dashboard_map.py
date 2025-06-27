@@ -58,8 +58,10 @@ with st.expander("ℹ️ About this map"):
     """)
 
 # Sensor data table
-st.subheader("📊 Sensor Data Preview")
+st.subheader("The Data")
 st.dataframe(sensors_df.head(20))
+
+st.text("The data presents the location of and readings from sensors, generally at half-hour intervals, for various locations, generally road-side, in the City of Liverpool. They sense temperature and humidity, as well as PM1, PM2.5 and PM10 particulate matter concentration measurements. Each sensor has been professionally installed and calibrated by Aeternum Innovations. The raw data is obtained by Professor Jonny Higham from the School of Environmental Sciences at the University of Liverpool, who has cleaned and interpolated the raw data, to fit it in to the regular time intervals, also removing or correcting obviously faulty data, and making it available via a web portal.")
 
 # Download option
 st.download_button("📥 Download Sensor Data", sensors_df.to_csv(index=False), file_name="sensors_export.csv", mime="text/csv")
